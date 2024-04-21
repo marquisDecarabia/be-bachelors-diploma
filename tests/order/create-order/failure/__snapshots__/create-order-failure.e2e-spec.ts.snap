@@ -1,0 +1,307 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Create an order (failure) Creating an order (failure) 1`] = `
+Object {
+  "createdAt": Any<String>,
+  "id": Any<String>,
+  "name": Any<String>,
+  "updatedAt": Any<String>,
+}
+`;
+
+exports[`Create an order (failure) Creating an order (failure) 2`] = `
+Object {
+  "balance": 119.91,
+  "createdAt": Any<String>,
+  "currency": "USD",
+  "id": Any<String>,
+  "updatedAt": Any<String>,
+  "userId": "11299efa-a2ee-4f65-857e-2fff02d2446e",
+}
+`;
+
+exports[`Create an order (failure) Creating an order (failure) 3`] = `
+Object {
+  "count": Any<Number>,
+  "data": Any<Array>,
+  "limit": Any<Number>,
+  "page": Any<Number>,
+}
+`;
+
+exports[`Create an order (failure) Creating an order (failure) 4`] = `
+Object {
+  "createdAt": Any<String>,
+  "currency": Any<String>,
+  "id": Any<String>,
+  "name": Any<String>,
+  "price": Any<Number>,
+  "status": Any<String>,
+  "updatedAt": Any<String>,
+}
+`;
+
+exports[`Create an order (failure) Creating an order (failure) 5`] = `
+Object {
+  "createdAt": Any<String>,
+  "currency": Any<String>,
+  "id": Any<String>,
+  "name": Any<String>,
+  "price": Any<Number>,
+  "status": Any<String>,
+  "updatedAt": Any<String>,
+}
+`;
+
+exports[`Create an order (failure) Creating an order (failure) 6`] = `
+Object {
+  "createdAt": Any<String>,
+  "currency": Any<String>,
+  "id": Any<String>,
+  "name": Any<String>,
+  "price": Any<Number>,
+  "status": Any<String>,
+  "updatedAt": Any<String>,
+}
+`;
+
+exports[`Create an order (failure) Creating an order (failure) 7`] = `
+Object {
+  "createdAt": Any<String>,
+  "currency": Any<String>,
+  "id": Any<String>,
+  "name": Any<String>,
+  "price": Any<Number>,
+  "status": Any<String>,
+  "updatedAt": Any<String>,
+}
+`;
+
+exports[`Create an order (failure) Creating an order (failure) 8`] = `
+Object {
+  "createdAt": Any<String>,
+  "currency": Any<String>,
+  "id": Any<String>,
+  "name": Any<String>,
+  "price": Any<Number>,
+  "status": Any<String>,
+  "updatedAt": Any<String>,
+}
+`;
+
+exports[`Create an order (failure) Creating an order (failure) 9`] = `
+Object {
+  "createdAt": Any<String>,
+  "currency": Any<String>,
+  "id": Any<String>,
+  "name": Any<String>,
+  "price": Any<Number>,
+  "status": Any<String>,
+  "updatedAt": Any<String>,
+}
+`;
+
+exports[`Create an order (failure) Creating an order (failure) 10`] = `
+Object {
+  "createdAt": Any<String>,
+  "currency": Any<String>,
+  "id": Any<String>,
+  "name": Any<String>,
+  "price": Any<Number>,
+  "status": Any<String>,
+  "updatedAt": Any<String>,
+}
+`;
+
+exports[`Create an order (failure) Creating an order (failure) 11`] = `
+Object {
+  "createdAt": Any<String>,
+  "currency": Any<String>,
+  "id": Any<String>,
+  "name": Any<String>,
+  "price": Any<Number>,
+  "status": Any<String>,
+  "updatedAt": Any<String>,
+}
+`;
+
+exports[`Create an order (failure) Creating an order (failure) 12`] = `
+Object {
+  "createdAt": Any<String>,
+  "currency": Any<String>,
+  "id": Any<String>,
+  "name": Any<String>,
+  "price": Any<Number>,
+  "status": Any<String>,
+  "updatedAt": Any<String>,
+}
+`;
+
+exports[`Create an order (failure) Creating an order (failure) 13`] = `
+Object {
+  "error": Any<String>,
+  "message": Any<String>,
+  "statusCode": Any<Number>,
+}
+`;
+
+exports[`Create an order (failure) Creating an order (failure) 14`] = `
+Object {
+  "error": "Conflict",
+  "message": "Product is unavailable",
+  "statusCode": 409,
+}
+`;
+
+exports[`Create an order (failure) Creating an order (failure) 15`] = `
+Object {
+  "createdAt": Any<String>,
+  "id": Any<String>,
+  "name": Any<String>,
+  "updatedAt": Any<String>,
+}
+`;
+
+exports[`Create an order (failure) Creating an order (failure) 16`] = `
+Object {
+  "balance": 119.91,
+  "createdAt": Any<String>,
+  "currency": "USD",
+  "id": Any<String>,
+  "updatedAt": Any<String>,
+  "userId": "11299efa-a2ee-4f65-857e-2fff02d2446e",
+}
+`;
+
+exports[`Create an order (failure) Creating an order (failure) 17`] = `
+Object {
+  "count": Any<Number>,
+  "data": Any<Array>,
+  "limit": Any<Number>,
+  "page": Any<Number>,
+}
+`;
+
+exports[`Create an order (failure) Creating an order (failure) 18`] = `
+Object {
+  "createdAt": Any<String>,
+  "currency": Any<String>,
+  "id": Any<String>,
+  "name": Any<String>,
+  "price": Any<Number>,
+  "status": Any<String>,
+  "updatedAt": Any<String>,
+}
+`;
+
+exports[`Create an order (failure) Creating an order (failure) 19`] = `
+Object {
+  "createdAt": Any<String>,
+  "currency": Any<String>,
+  "id": Any<String>,
+  "name": Any<String>,
+  "price": Any<Number>,
+  "status": Any<String>,
+  "updatedAt": Any<String>,
+}
+`;
+
+exports[`Create an order (failure) Creating an order (failure) 20`] = `
+Object {
+  "createdAt": Any<String>,
+  "currency": Any<String>,
+  "id": Any<String>,
+  "name": Any<String>,
+  "price": Any<Number>,
+  "status": Any<String>,
+  "updatedAt": Any<String>,
+}
+`;
+
+exports[`Create an order (failure) Creating an order (failure) 21`] = `
+Object {
+  "createdAt": Any<String>,
+  "currency": Any<String>,
+  "id": Any<String>,
+  "name": Any<String>,
+  "price": Any<Number>,
+  "status": Any<String>,
+  "updatedAt": Any<String>,
+}
+`;
+
+exports[`Create an order (failure) Creating an order (failure) 22`] = `
+Object {
+  "createdAt": Any<String>,
+  "currency": Any<String>,
+  "id": Any<String>,
+  "name": Any<String>,
+  "price": Any<Number>,
+  "status": Any<String>,
+  "updatedAt": Any<String>,
+}
+`;
+
+exports[`Create an order (failure) Creating an order (failure) 23`] = `
+Object {
+  "createdAt": Any<String>,
+  "currency": Any<String>,
+  "id": Any<String>,
+  "name": Any<String>,
+  "price": Any<Number>,
+  "status": Any<String>,
+  "updatedAt": Any<String>,
+}
+`;
+
+exports[`Create an order (failure) Creating an order (failure) 24`] = `
+Object {
+  "createdAt": Any<String>,
+  "currency": Any<String>,
+  "id": Any<String>,
+  "name": Any<String>,
+  "price": Any<Number>,
+  "status": Any<String>,
+  "updatedAt": Any<String>,
+}
+`;
+
+exports[`Create an order (failure) Creating an order (failure) 25`] = `
+Object {
+  "createdAt": Any<String>,
+  "currency": Any<String>,
+  "id": Any<String>,
+  "name": Any<String>,
+  "price": Any<Number>,
+  "status": Any<String>,
+  "updatedAt": Any<String>,
+}
+`;
+
+exports[`Create an order (failure) Creating an order (failure) 26`] = `
+Object {
+  "createdAt": Any<String>,
+  "currency": Any<String>,
+  "id": Any<String>,
+  "name": Any<String>,
+  "price": Any<Number>,
+  "status": Any<String>,
+  "updatedAt": Any<String>,
+}
+`;
+
+exports[`Create an order (failure) Creating an order (failure) 27`] = `
+Object {
+  "error": Any<String>,
+  "message": Any<String>,
+  "statusCode": Any<Number>,
+}
+`;
+
+exports[`Create an order (failure) Creating an order (failure) 28`] = `
+Object {
+  "error": "Bad Request",
+  "message": "Not enough funds to buy product",
+  "statusCode": 400,
+}
+`;

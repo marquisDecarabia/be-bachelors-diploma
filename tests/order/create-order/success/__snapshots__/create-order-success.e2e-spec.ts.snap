@@ -1,0 +1,167 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Create a order Creating an order (success) 1`] = `
+Object {
+  "createdAt": Any<String>,
+  "id": Any<String>,
+  "name": Any<String>,
+  "updatedAt": Any<String>,
+}
+`;
+
+exports[`Create a order Creating an order (success) 2`] = `
+Object {
+  "balance": 217.35,
+  "createdAt": Any<String>,
+  "currency": "USD",
+  "id": Any<String>,
+  "updatedAt": Any<String>,
+  "userId": "7e0154e2-aca2-4af6-92b4-bd5c517f5b36",
+}
+`;
+
+exports[`Create a order Creating an order (success) 3`] = `
+Object {
+  "count": Any<Number>,
+  "data": Any<Array>,
+  "limit": Any<Number>,
+  "page": Any<Number>,
+}
+`;
+
+exports[`Create a order Creating an order (success) 4`] = `
+Object {
+  "createdAt": Any<String>,
+  "currency": Any<String>,
+  "id": Any<String>,
+  "name": Any<String>,
+  "price": Any<Number>,
+  "status": Any<String>,
+  "updatedAt": Any<String>,
+}
+`;
+
+exports[`Create a order Creating an order (success) 5`] = `
+Object {
+  "createdAt": Any<String>,
+  "currency": Any<String>,
+  "id": Any<String>,
+  "name": Any<String>,
+  "price": Any<Number>,
+  "status": Any<String>,
+  "updatedAt": Any<String>,
+}
+`;
+
+exports[`Create a order Creating an order (success) 6`] = `
+Object {
+  "createdAt": Any<String>,
+  "currency": Any<String>,
+  "id": Any<String>,
+  "name": Any<String>,
+  "price": Any<Number>,
+  "status": Any<String>,
+  "updatedAt": Any<String>,
+}
+`;
+
+exports[`Create a order Creating an order (success) 7`] = `
+Object {
+  "createdAt": Any<String>,
+  "currency": Any<String>,
+  "id": Any<String>,
+  "name": Any<String>,
+  "price": Any<Number>,
+  "status": Any<String>,
+  "updatedAt": Any<String>,
+}
+`;
+
+exports[`Create a order Creating an order (success) 8`] = `
+Object {
+  "createdAt": Any<String>,
+  "currency": Any<String>,
+  "id": Any<String>,
+  "name": Any<String>,
+  "price": Any<Number>,
+  "status": Any<String>,
+  "updatedAt": Any<String>,
+}
+`;
+
+exports[`Create a order Creating an order (success) 9`] = `
+Object {
+  "createdAt": Any<String>,
+  "currency": Any<String>,
+  "id": Any<String>,
+  "name": Any<String>,
+  "price": Any<Number>,
+  "status": Any<String>,
+  "updatedAt": Any<String>,
+}
+`;
+
+exports[`Create a order Creating an order (success) 10`] = `
+Object {
+  "createdAt": Any<String>,
+  "currency": Any<String>,
+  "id": Any<String>,
+  "name": Any<String>,
+  "price": Any<Number>,
+  "status": Any<String>,
+  "updatedAt": Any<String>,
+}
+`;
+
+exports[`Create a order Creating an order (success) 11`] = `
+Object {
+  "createdAt": Any<String>,
+  "currency": Any<String>,
+  "id": Any<String>,
+  "name": Any<String>,
+  "price": Any<Number>,
+  "status": Any<String>,
+  "updatedAt": Any<String>,
+}
+`;
+
+exports[`Create a order Creating an order (success) 12`] = `
+Object {
+  "createdAt": Any<String>,
+  "currency": Any<String>,
+  "id": Any<String>,
+  "name": Any<String>,
+  "price": Any<Number>,
+  "status": Any<String>,
+  "updatedAt": Any<String>,
+}
+`;
+
+exports[`Create a order Creating an order (success) 13`] = `
+Object {
+  "id": Any<String>,
+}
+`;
+
+exports[`Create a order Creating an order (success) 14`] = `
+Object {
+  "createdAt": Any<String>,
+  "currency": "USD",
+  "id": Any<String>,
+  "name": "Lava Lake",
+  "price": 150,
+  "status": "sold",
+  "updatedAt": Any<String>,
+}
+`;
+
+exports[`Create a order Creating an order (success) 15`] = `
+Object {
+  "balance": 67.35,
+  "createdAt": Any<String>,
+  "currency": "USD",
+  "id": Any<String>,
+  "updatedAt": Any<String>,
+  "userId": "7e0154e2-aca2-4af6-92b4-bd5c517f5b36",
+}
+`;
