@@ -11,6 +11,7 @@ import {
 } from '@modules/order/errors/order.errors';
 import { ProductStatuses } from '@modules/product/domain/entities/product.types';
 import { OrderEntity } from '@modules/order/domain/entities/order.entity';
+import { EmailVO } from "@libs/ddd/domain/value-objects/email.value-object";
 
 @CommandHandler(CreateOrderCommand)
 export class CreateOrderService extends CommandHandlerBase {
@@ -41,10 +42,17 @@ export class CreateOrderService extends CommandHandlerBase {
       return Result.err(new NotEnoughFundsError());
     }
 
+    const userRepo = this.unitOfWork.getUserRepository(
+        command.correlationId,
+    );
+
+    const user = await userRepo.findOneByIdOrThrow(command.userId);
+
     const orderRepo = this.unitOfWork.getOrderRepository(command.correlationId);
 
     const order = OrderEntity.create({
       userId: new UUID(command.userId),
+      userEmail: user.email,
       productId: new UUID(command.productId),
       productInfo: product.productInfo,
       productPrice: product.price,

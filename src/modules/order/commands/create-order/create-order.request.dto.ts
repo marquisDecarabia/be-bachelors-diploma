@@ -1,6 +1,6 @@
 import { CreateOrder } from '@src/interface-adapters/interfaces/order/create.order.interface';
 import { ApiProperty } from '@nestjs/swagger';
-import { IsUUID } from 'class-validator';
+import { IsEmail, IsUUID } from 'class-validator';
 
 export class CreateOrderRequest implements CreateOrder {
   @ApiProperty({
@@ -16,6 +16,13 @@ export class CreateOrderRequest implements CreateOrder {
   })
   @IsUUID(4)
   readonly productId: string;
+
+  @ApiProperty({
+    example: 'test@test.com',
+    description: 'User email',
+  })
+  @IsEmail()
+  readonly userEmail: string;
 }
 
 export class CreateOrderHttpRequest

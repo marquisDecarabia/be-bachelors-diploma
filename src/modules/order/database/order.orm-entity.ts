@@ -10,6 +10,9 @@ export class OrderOrmEntity extends TypeormEntityBase {
   @Column()
   userId: string;
 
+  @Column({ type: 'citext' })
+  userEmail: string;
+
   @Column()
   productId: string;
 

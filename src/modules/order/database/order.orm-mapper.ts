@@ -9,6 +9,7 @@ import {
 } from '@modules/order/domain/entities/order.entity';
 import { OrderOrmEntity } from '@modules/order/database/order.orm-entity';
 import { UUID } from '@libs/ddd/domain/value-objects/uuid.value-object';
+import { EmailVO } from "@libs/ddd/domain/value-objects/email.value-object";
 
 export class OrderOrmMapper extends OrmMapper<OrderEntity, OrderOrmEntity> {
   protected toOrmProps(entity: OrderEntity): OrmEntityProps<OrderOrmEntity> {
@@ -16,6 +17,7 @@ export class OrderOrmMapper extends OrmMapper<OrderEntity, OrderOrmEntity> {
 
     const ormProps: OrmEntityProps<OrderOrmEntity> = {
       userId: props.userId.value,
+      userEmail: props.userEmail.value,
       productId: props.productId.value,
       productInfo: props.productInfo,
     };
@@ -26,6 +28,7 @@ export class OrderOrmMapper extends OrmMapper<OrderEntity, OrderOrmEntity> {
     const id = new UUID(ormEntity.id);
     const props: OrderProps = {
       userId: new UUID(ormEntity.userId),
+      userEmail: new EmailVO(ormEntity.userEmail),
       productId: new UUID(ormEntity.productId),
       productInfo: ormEntity.productInfo,
     };

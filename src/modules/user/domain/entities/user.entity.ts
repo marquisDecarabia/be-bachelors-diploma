@@ -34,4 +34,8 @@ export class UserEntity extends AggregateRoot<UserProps> {
       throw new ArgumentInvalidException('Name cannot be empty');
     }
   }
+
+  public get email(): EmailVO {
+    return this.props.email;
+  }
 }

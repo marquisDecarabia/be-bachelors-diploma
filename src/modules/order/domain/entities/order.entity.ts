@@ -1,9 +1,11 @@
 import { AggregateRoot } from '@libs/ddd/domain/base-classes/aggregate-root.base';
 import { UUID } from '@libs/ddd/domain/value-objects/uuid.value-object';
 import { OrderCreatedDomainEvent } from '@modules/order/domain/events/order-created.domain-event';
+import { EmailVO } from "@libs/ddd/domain/value-objects/email.value-object";
 
 export interface CreateOrderProps {
   userId: UUID;
+  userEmail: EmailVO;
   productId: UUID;
   productInfo: string;
   productPrice: number;
