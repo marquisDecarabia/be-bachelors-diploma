@@ -9,6 +9,7 @@ import {
 } from '@modules/user/domain/entities/user.entity';
 import { UserOrmEntity } from '@modules/user/database/user.orm-entity';
 import { UUID } from '@libs/ddd/domain/value-objects/uuid.value-object';
+import {EmailVO} from "@libs/ddd/domain/value-objects/email.value-object";
 
 export class UserOrmMapper extends OrmMapper<UserEntity, UserOrmEntity> {
   protected toOrmProps(entity: UserEntity): OrmEntityProps<UserOrmEntity> {
@@ -16,6 +17,7 @@ export class UserOrmMapper extends OrmMapper<UserEntity, UserOrmEntity> {
 
     const ormProps: OrmEntityProps<UserOrmEntity> = {
       name: props.name,
+      email: props.email.value,
     };
     return ormProps;
   }
@@ -24,6 +26,7 @@ export class UserOrmMapper extends OrmMapper<UserEntity, UserOrmEntity> {
     const id = new UUID(ormEntity.id);
     const props: UserProps = {
       name: ormEntity.name,
+      email: new EmailVO(ormEntity.email),
     };
     return { id, props };
   }

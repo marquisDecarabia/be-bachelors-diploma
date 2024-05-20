@@ -2,9 +2,11 @@ import { AggregateRoot } from '@libs/ddd/domain/base-classes/aggregate-root.base
 import { UUID } from '@libs/ddd/domain/value-objects/uuid.value-object';
 import { UserCreatedDomainEvent } from '@modules/user/domain/events/user-created.domain-event';
 import { ArgumentInvalidException } from '@exceptions';
+import { EmailVO } from "@libs/ddd/domain/value-objects/email.value-object";
 
 export interface CreateUserProps {
   name: string;
+  email: EmailVO;
 }
 
 export type UserProps = CreateUserProps;

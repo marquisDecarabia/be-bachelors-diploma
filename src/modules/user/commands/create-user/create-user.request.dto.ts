@@ -1,5 +1,5 @@
 import { ApiProperty } from '@nestjs/swagger';
-import { IsString, MaxLength, MinLength } from 'class-validator';
+import {IsEmail, IsString, MaxLength, MinLength} from 'class-validator';
 import { CreateUser } from '@src/interface-adapters/interfaces/user/create.user.interface';
 
 export class CreateUserRequest implements CreateUser {
@@ -12,6 +12,13 @@ export class CreateUserRequest implements CreateUser {
   @MaxLength(100)
   @IsString()
   readonly name: string;
+
+  @ApiProperty({
+    example: 'test@test.com',
+    description: 'User email',
+  })
+  @IsEmail()
+  readonly email: string;
 }
 
 export class CreateUserHttpRequest

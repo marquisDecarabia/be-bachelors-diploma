@@ -9,4 +9,7 @@ export class UserOrmEntity extends TypeormEntityBase {
 
   @Column()
   name: string;
+
+  @Column({ unique: true, type: "citext" })
+  email: string;
 }

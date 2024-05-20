@@ -6,6 +6,7 @@ import { ID } from '@libs/ddd/domain/value-objects/id.value-object';
 import { CreateUserCommand } from '@modules/user/commands/create-user/create-user.command';
 import { UserEntity } from '@modules/user/domain/entities/user.entity';
 import { UserRepositoryPort } from '@modules/user/database/user.repository.port';
+import {EmailVO} from "@libs/ddd/domain/value-objects/email.value-object";
 
 @CommandHandler(CreateUserCommand)
 export class CreateUserService extends CommandHandlerBase {
@@ -16,6 +17,7 @@ export class CreateUserService extends CommandHandlerBase {
   async handle(command: CreateUserCommand): Promise<Result<ID>> {
     const user = UserEntity.create({
       name: command.name,
+      email: new EmailVO(command.email),
     });
     const userRepo: UserRepositoryPort = this.unitOfWork.getUserRepository(
       command.correlationId,
